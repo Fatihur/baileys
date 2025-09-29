@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: WhatsApp API using Baileys library\n\n- Express.js API server for WhatsApp integration\n- Baileys library implementation for WhatsApp Web protocol\n- Multi-session support with session management\n- File upload and media handling capabilities\n- QR code generation for authentication\n- Docker deployment configuration\n- Environment variables configuration\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh --version)"
     ],
     "deny": [],
     "ask": []
